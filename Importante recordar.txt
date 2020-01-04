@@ -1,0 +1,13 @@
+Para iniciar
+git init -> Empieza en la carpeta un repositorio.
+git add Nombre_del_Archivo -> Agrega el archivo al repositorio.
+git commit -m "Comentario v1" -> Envia los ultimos cambios a la base de datos de control de versiones.
+
+Ahora si realizamos cambios tenemos que hacer lo siguiente:
+git add . -> Agrega todos los archivos de la carpeta en la que te encuentras.
+git commit -m "Comentario v2" -> Envia los ultimos cambios a la base de datos de control de versiones con el comentario para poder identificarlo.
+
+Comandos Importates
+git status -> Te muestra todos los cambios que hiciste.
+git show -> Todos los cambios historicos hechos cuando y quien los hizo.
+git log Nombre_del_Archivo -> Historia completa de un archivo.
