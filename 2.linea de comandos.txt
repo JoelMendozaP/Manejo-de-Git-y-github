@@ -1,0 +1,11 @@
+Linea de comandos en git bash
+cd -> para moverme entre los directorios
+ls -> listar todos los archivos y directorios
+clear -> limpiar la consola
+
+pwd -> nos muestra en el directorio donde nos encontramos
+mkdir NombreDeLaCarpeta ->  crear carpeta
+touch NombreDelArchivo.extencion -> crear un archivo vacio
+cat NombreDelArchivo.txt -> Ver el contenido del archivo
+history -> lista de comandos que se realizaron
+rm NombreDelArchivo.extencion -> Borrar un archivo

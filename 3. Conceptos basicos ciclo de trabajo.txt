@@ -1,0 +1,5 @@
+Git init -> inicializa el repositorio en una carpeta.
+Git add -> pasa la información de un archivo al área de staging.
+Staging -> área en memoria ram que almacena la información que va a enviarse al repositorio.
+Git commit-> envía la información al repositorio y genera versiones de nuestros archivos.
+Checkout -> permite regresar un archivo a una versión anterior previamente guardada en el repositorio.
