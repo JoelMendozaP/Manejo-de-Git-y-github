@@ -6,7 +6,9 @@ git commit -m "Comentario v1" -> Envia los ultimos cambios a la base de datos de
 Ahora si realizamos cambios tenemos que hacer lo siguiente:
 git add . -> Agrega todos los archivos de la carpeta en la que te encuentras.
 git commit -m "Comentario v2" -> Envia los ultimos cambios a la base de datos de control de versiones con el comentario para poder identificarlo.
-
+Nota: Si no ponemos commit nos aparece un editor de coditor de codigo basado en linea de comandos 
+    Introducimos un mensaje con esc+i
+    Nos salimos y guardamos con esc+shift+z+z
 Comandos Importates
 git status -> Te muestra todos los cambios que hiciste.
 git show -> Todos los cambios historicos hechos cuando y quien los hizo.
