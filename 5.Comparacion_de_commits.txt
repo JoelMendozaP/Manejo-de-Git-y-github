@@ -6,3 +6,5 @@ Y nos sale todos los commits en el archivo
 >git dif numero_de_commit_1_mas_actual numero_de_commit_2_mas_antigua  
 -Nos compara los cambios de los dos commits 
 
+>git log --stat
+Nos muestra los cambios por bytes mas detallados y salimos con la "q"
