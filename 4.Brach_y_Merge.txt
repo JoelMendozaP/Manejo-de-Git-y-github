@@ -1,0 +1,17 @@
+git checkout cabecera
+git checkout master
+git branch
+alias arbolito="git log --all --graph --decorate --oneline"
+git show-branch
+git show-branch --all
+gitk
+git branch
+git pull origin master
+git checkout cabecera
+git push origin cabecera
+git checkout master
+git branch header
+git branch footer
+git branch
+git push origin header
+git push origin footer
