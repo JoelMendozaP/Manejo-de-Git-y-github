@@ -10,3 +10,21 @@ Creamos un tag
 git tag -a v0.1 -m "Resultado de las primeras clases del curso" 0f5de54
 git tag
 git show-ref --tags
+
+
+En fin
+git log
+git log --all
+git log --all --graph
+git log --all --graph --decorate --oneline
+alias arbolito="git log --all --graph --decorate --oneline"
+git tag-a v0.1 -m "Resultado de las primeras clases del curso"9f98e8f
+git tag
+git show-ref --tags
+git status
+git pull origin master
+git push origin --tags
+git tag
+gittag-d Dormido
+git pull origin master
+git push origin :refs/tags/Dormido
