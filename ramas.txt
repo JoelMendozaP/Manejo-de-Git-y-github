@@ -1,0 +1,13 @@
+vim
+-Editor interno de código y texto basado en terminal.
+
+git commit -am
+-Comando que hace add y commit al mismo tiempo a archivos a los que se ha hecho commit previamente.
+
+git branch <nombre que quieres poner a tu nueva rama>
+-Comando para crear tu nueva rama
+
+git checkout <nombre de rama que creaste previamente>
+-Comando para moverte a las ramas que hayas creado
+
+HEAD puede considerarse como un indicador de cuál versión de commit se está viendo de los últimos archivos.

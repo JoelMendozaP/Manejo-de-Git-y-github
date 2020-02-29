@@ -13,3 +13,15 @@ Comandos Importates
 git status -> Te muestra todos los cambios que hiciste.
 git show -> Todos los cambios historicos hechos cuando y quien los hizo.
 git log Nombre_del_Archivo -> Historia completa de un archivo.
+
+Link: Readme - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Editor de .md - https://pandao.github.io/editor.md/en.html
+
+Estructura README
+
+Nombre.
+Descripción.
+Instalación.
+Como usar.
+Como contribuir
+Licencia

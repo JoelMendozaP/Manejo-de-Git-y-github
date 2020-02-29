@@ -1,3 +1,22 @@
 
+>git checkout 68a00770a0a8679256d7ea473e2be0d0d0f153d1 5.Comparacion_de_commits.txt
+>git checkout Codigo_commit Nombre_del archivo
+Nos permite volver el estado del archivo en el commit dado.
+
+>git checkout master 5.Comparacion_de_commits.txt
+Nos permite volver a la version mas reciente del archivo
+----------------------------------------------------------------------------------------------------------------------------------------------
+Con git reset volvemos al pasado sin la posibilidad de volver al futuro. Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
 >git 
 hay 2 formar de volver el fuerte y el suave
+git reset --soft: Borramos todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit.
+git reset --hard: Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial.
+
+
+Algunos nuevos comandos:
+
+git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
+git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los cambios al servidor remoto.
+git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
+git merge: También usamos el comando git fetch con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
+git pull: Básicamente, git fetch y git merge al mismo tiempo.
