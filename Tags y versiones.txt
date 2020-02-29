@@ -1,0 +1,12 @@
+Para ver las ramas graficadas podemos utilizar:
+ git log --all --graph
+ git log --all --graph --decorate --oneline
+
+Para agregar un alias y no tener que escribir todo hacemos los siguiente:
+ alias arbolito="log --all --graph --decorate --oneline"
+ arbolito
+
+Creamos un tag
+git tag -a v0.1 -m "Resultado de las primeras clases del curso" 0f5de54
+git tag
+git show-ref --tags

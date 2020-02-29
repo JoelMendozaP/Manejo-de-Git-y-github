@@ -1,0 +1,25 @@
+Lo primero es verificar que el correo sea igual en local y github
+Con esto ves las configuraciones en git
+ git config -l
+
+Y con esto puedes cambiarlo
+ git config --global user.email "joelmendozapaucara@gmail.com"
+
+ user.email=joelmendozapaucara@gmail.com
+
+Para agregar una llave SSH debes correr lo siguiente si deseas puedes agregar una contraseña
+ ssh-keygen -t rsa -b 4096 -C "joelmendozapaucara@gmail.com"
+
+Puedes verificar que todo este bien con esto
+eval $(ssh-agent -s)
+
+Y luego adicionar la llave SSH
+ ssh-add ~/.ssh/id_rsa
+
+Luego vas a github y agregas la llave o todo el contenido de id_rsa
+
+Para enlazar el local con tu repositorio utilizando ssh
+ remote set-url origin git@github.com:JoelMendozaP/Manejo-de-Git-y-github.git
+
+Y lo verificas con esto
+ remote -v 
